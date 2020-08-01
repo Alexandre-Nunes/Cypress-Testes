@@ -1,6 +1,6 @@
 /* global Given, Then, When, And */
 
-import Cadastro from '../pageobjects/LoginPage'
+import Cadastro from '../pageobjects/CadastroPage'
 
 ///Cadastrar um novo cliente
 Given('que acesso o site da bootstrap_theme', () => {

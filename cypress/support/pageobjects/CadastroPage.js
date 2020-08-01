@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-const el = require('../elements/LoginElements').ELEMENTS
+const el = require('../elements/CadastroElements').ELEMENTS
 
 class Cadastro {
     acessaSite(){
