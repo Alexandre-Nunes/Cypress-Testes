@@ -1,0 +1,10 @@
+{
+    "defaultCommandTimeout": 10000,
+    "testFiles": "**/*.{feature,features,spec.js}",
+    "baseUrl": "https://www.grocerycrud.com/demo/bootstrap_theme",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+}
+
+
+

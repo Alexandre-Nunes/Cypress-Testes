@@ -1,0 +1,26 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Testes automatizados de Base.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open",
+    "test:open": "cypress open",
+    "test:run": "cypress run",
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Alexandre Nunes",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.1"
+  }
+}
