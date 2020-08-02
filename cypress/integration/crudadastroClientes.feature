@@ -2,8 +2,8 @@
 
 Funcionalidade: CRUD Clientes
     Eu como usuário do sistema
-    Quero cadastrar, pesquisar e deletar clinets no sistema
-    Para ter um controle maios sobre os dados dos clientes.
+    Quero cadastrar, pesquisar e deletar clients no sistema
+    Para ter um controle maior sobre os dados dos clientes.
 
 Cenario: Realizar cadastro de um cliente com sucesso
     Dado que acesso o site da bootstrap_theme 

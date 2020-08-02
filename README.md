@@ -10,7 +10,7 @@ Para executar os testes, você deve ter na sua máquina:
 Chrome, Node, npm
 
 Passos para executar os testes:
-clonar o prjeto com: git clone git@github.com:Alexandre-Nunes/Teste.git
+clonar o prjeto com: git clone git@github.com:Alexandre-Nunes/Cypress-Testes.git
 instalar o cypress com: npm intall -D cypress instalar as dependências com npm i
 Para rodar os testes: npm test
 

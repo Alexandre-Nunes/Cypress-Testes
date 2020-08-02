@@ -26,29 +26,20 @@ Given('que acesso a pagina de customer pelo link Go back to list', () => {
     Cadastro.alterarVersao()
     Cadastro.preencherCadastro()
     Cadastro.valiarMensagemCadastro()
-
-    cy.get('[href="/demo/bootstrap_theme_v4/"]').click()
+    Cadastro.acessarPageCustomerPeloLink()
  
  })
  
  When('pesquiso pelo cliente Teste Sicredi', () => {
-    cy.get(':nth-child(3) > .form-control').type('Teste Sicredi')
+    Cadastro.pesquisarCliente()
  })
  
  And('deleto o cadastro', () => {
-    cy.get('.select-all-none').click()
-    cy.get('.no-border-left > .floatL > .btn').click()
-
-    cy.get('.alert-delete-multiple').should('contain', 'Are you sure that you want to delete those 10 items?')
-
-    cy.get('.delete-multiple-confirmation > .modal-dialog > .modal-content > .modal-footer > .btn-danger').click()
-    
-    cy.get('[data-growl="message"] > p').should('contain', 'Your data has been successfully deleted from the database.')
-
+   Cadastro.deletarCadastro()
 
  })
  
  Then('o cadastro e deletado com sucesso', () => {
-    
+    Cadastro.valiarMensagemDelete()
  })
  
